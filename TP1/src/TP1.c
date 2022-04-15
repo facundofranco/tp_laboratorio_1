@@ -4,7 +4,12 @@
  Author      : Franco Facundo
  Version     :
  Copyright   : Your copyright notice
- Description : Hello World in C, Ansi-style
+ Description :
+
+ Una agencia de viaje necesita calcular costos para sus vuelos de Latam y Aerolíneas Argentinas
+ para ofrecerlos a sus clientes.
+ Se deberá ingresar por cada vuelo los km totales y el precio total del mismo.
+ El objetivo de la aplicación es mostrar las diferentes opciones de pagos a sus clientes.
  ============================================================================
  */
 
@@ -17,6 +22,8 @@
 
 int main(void)
 {
+	//declaro las variables
+
 	setbuf(stdout,NULL);
 	float kilometrosTotales;
 	float precioAerolineas;
@@ -37,6 +44,7 @@ int main(void)
 	float diferenciaPrecioForzado;
 	char salir='n';
 
+    //inicializo las variables necesarias
 
 	kilometrosTotales=0;
 	precioAerolineas=0;
@@ -49,6 +57,7 @@ int main(void)
 
 	do
 	{
+		//llamo a la funcion mostrarmenu
 		switch(mostrarmenu())
 		{
 			case 1:
