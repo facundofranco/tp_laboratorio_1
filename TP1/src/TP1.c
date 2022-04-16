@@ -46,9 +46,9 @@ int main(void)
 
     //inicializo las variables necesarias
 
-	kilometrosTotales=0;
-	precioAerolineas=0;
-	precioLatam=0;
+	kilometrosTotales = 0;
+    precioAerolineas = 0;
+    precioLatam = 0;
 	bandera=0;
 	kilometroForzado=7090;
 	precioForzadoAerolineas=162965;
@@ -58,7 +58,7 @@ int main(void)
 	do
 	{
 		//llamo a la funcion mostrarmenu
-		switch(mostrarmenu())
+		switch(mostrarmenu(kilometrosTotales, precioAerolineas, precioLatam))
 		{
 			case 1:
 				do

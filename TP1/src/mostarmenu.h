@@ -8,10 +8,8 @@
 #ifndef MOSTARMENU_H_
 #define MOSTARMENU_H_
 
-/// @fn int mostrarmenu()
-/// @brief funcion que muestra el menu
-///
-/// @return
-int mostrarmenu();
+
 
 #endif /* MOSTARMENU_H_ */
+
+int mostrarmenu(float kilometros,float precioAerolineas, float precioLatam);
