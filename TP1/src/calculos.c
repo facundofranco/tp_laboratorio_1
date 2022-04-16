@@ -58,24 +58,24 @@ float calcularDiferencia(float precioUno,float precioDos)
 
 void mostrarCalculosAerolineas(float precioAerolineas, float kilometros, float precioDebitoAerolineas, float precioCreditoAerolineas, float precioBitcoinAerolineas, float precioPorKilometroAerolineas)
 {
-	printf("\nLa cantidad de kilometros es:%.2f",kilometros);
-	printf("\n\nPrecio Aerolineas: $%.2f",precioAerolineas);
-	printf("\nA)Precio con tarjeta de débito: %.2f",precioDebitoAerolineas);
-	printf("\nB)Precio con tarjeta de crédito: %.2f",precioCreditoAerolineas);
+	printf("\nLa cantidad de kilometros es:%.2f\n",kilometros);
+	printf("\nPrecio Aerolineas: $%.2f",precioAerolineas);
+	printf("\nA)Precio con tarjeta de débito: $%.2f",precioDebitoAerolineas);
+	printf("\nB)Precio con tarjeta de crédito: $%.2f",precioCreditoAerolineas);
 	printf("\nC)Precio pagando con bitcoin: %f BTC",precioBitcoinAerolineas);
-	printf("\nD)Mostrar precio unitario: %.2f\n",precioPorKilometroAerolineas);
+	printf("\nD)Mostrar precio unitario: $%.2f\n",precioPorKilometroAerolineas);
 }
 
 void mostrarCalculosLatam(float precioLatam, float kilometros, float precioDebitoLatam, float precioCreditoLatam,float precioBitcoinLatam, float precioPorKilometroLatam)
 {
-	printf("\n\nPrecio Aerolineas: $%.2f",precioLatam);
-	printf("\nA)Precio con tarjeta de débito: %.2f",precioDebitoLatam);
-	printf("\nB)Precio con tarjeta de crédito: %.2f",precioCreditoLatam);
+	printf("\nPrecio Aerolineas: $%.2f",precioLatam);
+	printf("\nA)Precio con tarjeta de débito: $%.2f",precioDebitoLatam);
+	printf("\nB)Precio con tarjeta de crédito: $%.2f",precioCreditoLatam);
 	printf("\nC)Precio pagando con bitcoin: %f BTC",precioBitcoinLatam);
-	printf("\nD)Mostrar precio unitario: %.2f\n",precioPorKilometroLatam);
+	printf("\nD)Mostrar precio unitario: $%.2f\n",precioPorKilometroLatam);
 }
 
 void mostrarDiferencia(float diferencia)
 {
-		printf("la diferencia es %.2f\n",diferencia);
+		printf("\nla diferencia es %.2f\n",diferencia);
 }

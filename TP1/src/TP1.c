@@ -63,7 +63,7 @@ int main(void)
 			case 1:
 				do
 				{
-				printf("ingrese los kilometros:\n");
+				printf("\ningrese los kilometros:\n");
 				fflush(stdin);
 				scanf("%f",&kilometrosTotales);
 				while(kilometrosTotales<1)
@@ -78,9 +78,9 @@ int main(void)
 			case 2:
 				do
 					{
-						printf("Ingrese los precios del vuelo\n");
+						printf("\nIngrese los precios del vuelo\n");
 
-						printf("ingrese el precio de Aerolineas: \n");
+						printf("\ningrese el precio de Aerolineas: \n");
 						fflush(stdin);
 						scanf("%f",&precioAerolineas);
 						while(precioAerolineas<1)
@@ -89,7 +89,7 @@ int main(void)
 								fflush(stdin);
 								scanf("%f",&precioAerolineas);
 							}
-						printf("ingrese el precio de Latam: \n");
+						printf("\ningrese el precio de Latam: \n");
 						fflush(stdin);
 						scanf("%f",&precioLatam);
 						while(precioLatam<1)
@@ -123,6 +123,7 @@ int main(void)
 				{
 					mostrarCalculosAerolineas(precioAerolineas,kilometrosTotales,descuentoAerolineas,interesesAerolineas,bitcoinAerolineas,precioKilometroAerolineas);
 					mostrarCalculosLatam(precioLatam,kilometrosTotales,descuentoLatam,interesesLatam,bitcoinLatam,precioKilometroLatam);
+
 					mostrarDiferencia(diferenciaPrecios);
 				}
 				system("pause");
